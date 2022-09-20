@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Pacacas",
+			"Path": "D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\Pacacas.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PacacasEditor",
+			"Path": "D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\PacacasEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

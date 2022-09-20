@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\source\\pacacas\\pacacasgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\pacacaseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\development\\pacacas\\definitions.pacacas.h",
+            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\source\\pacacas\\pacacasgamemodebase.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\inc\\pacacas\\pacacasgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
