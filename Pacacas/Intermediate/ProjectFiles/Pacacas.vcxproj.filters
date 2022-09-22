@@ -23,6 +23,12 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\Pacacas">
       <UniqueIdentifier>{77E05592-C732-38C5-908C-7045F5F838BB}</UniqueIdentifier>
     </Filter>
@@ -40,6 +46,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Pacacas\PacacasGameModeBase.h">
       <Filter>Source\Pacacas</Filter>
+    </ClInclude>
+    <Filter Include="Source\Pacacas\Private">
+      <UniqueIdentifier>{71B52A20-1DA2-3905-9CDA-73C265C6634A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Pacacas\Private\PCC_Door.cpp">
+      <Filter>Source\Pacacas\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Pacacas\Private\PCC_Moving_Platform.cpp">
+      <Filter>Source\Pacacas\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Pacacas\Public">
+      <UniqueIdentifier>{BFEA7A47-B591-3AEF-9AC4-80F17639D37E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Pacacas\Public\PCC_Door.h">
+      <Filter>Source\Pacacas\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Pacacas\Public\PCC_Moving_Platform.h">
+      <Filter>Source\Pacacas\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
