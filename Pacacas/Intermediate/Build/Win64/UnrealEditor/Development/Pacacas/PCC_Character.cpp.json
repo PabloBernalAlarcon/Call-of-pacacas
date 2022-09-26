@@ -1,19 +1,19 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\source\\pacacas\\private\\pcc_character.cpp",
+        "Source": "c:\\users\\user\\documents\\repitos\\call-of-pacacas\\pacacas\\source\\pacacas\\private\\pcc_character.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\pacacaseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\user\\documents\\repitos\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\pacacaseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\development\\pacacas\\definitions.pacacas.h",
-            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\source\\pacacas\\public\\pcc_character.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
-            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "d:\\users\\pablo\\documents\\unreal projects\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\inc\\pacacas\\pcc_character.generated.h"
+            "c:\\users\\user\\documents\\repitos\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\development\\pacacas\\definitions.pacacas.h",
+            "c:\\users\\user\\documents\\repitos\\call-of-pacacas\\pacacas\\source\\pacacas\\public\\pcc_character.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\user\\documents\\repitos\\call-of-pacacas\\pacacas\\intermediate\\build\\win64\\unrealeditor\\inc\\pacacas\\pcc_character.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
