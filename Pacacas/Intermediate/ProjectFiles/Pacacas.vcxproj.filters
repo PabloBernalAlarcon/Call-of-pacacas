@@ -50,6 +50,9 @@
     <Filter Include="Source\Pacacas\Private">
       <UniqueIdentifier>{71B52A20-1DA2-3905-9CDA-73C265C6634A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Pacacas\Private\PCC_Character.cpp">
+      <Filter>Source\Pacacas\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Pacacas\Private\PCC_Door.cpp">
       <Filter>Source\Pacacas\Private</Filter>
     </ClCompile>
@@ -59,6 +62,9 @@
     <Filter Include="Source\Pacacas\Public">
       <UniqueIdentifier>{BFEA7A47-B591-3AEF-9AC4-80F17639D37E}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Pacacas\Public\PCC_Character.h">
+      <Filter>Source\Pacacas\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Pacacas\Public\PCC_Door.h">
       <Filter>Source\Pacacas\Public</Filter>
     </ClInclude>
