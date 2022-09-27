@@ -6,10 +6,16 @@
 #include "GameFramework/Character.h"
 #include "PCC_Character.generated.h"
 
+class UCameraComponent;
+
 UCLASS()
 class PACACAS_API APCC_Character : public ACharacter
 {
 	GENERATED_BODY()
+
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
+		UCameraComponent* FPSCamera;
 protected:
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category="Aiming")

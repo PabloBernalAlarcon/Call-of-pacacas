@@ -2,12 +2,16 @@
 
 
 #include "PCC_Character.h"
-
+#include <Engine/Classes/Camera/CameraComponent.h>
 // Sets default values
 APCC_Character::APCC_Character()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	FPSCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FPSCameraComponent"));
+	FPSCamera->bUsePawnControlRotation = true;
+	FPSCamera->SetupAttachment(RootComponent);
 
 }
 
