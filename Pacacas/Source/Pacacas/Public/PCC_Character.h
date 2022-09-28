@@ -21,6 +21,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category="Aiming")
 	bool b_isYLookInverted;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Aiming")
+	FName FPSCameraSocketName;
+
 public:
 	// Sets default values for this character's properties
 	APCC_Character();

@@ -38,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 #endif
 		static void NewProp_b_isYLookInverted_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_b_isYLookInverted;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_FPSCameraSocketName_MetaData[];
+#endif
+		static const UECodeGen_Private::FNamePropertyParams NewProp_FPSCameraSocketName;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -72,9 +76,17 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 		((APCC_Character*)Obj)->b_isYLookInverted = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted = { "b_isYLookInverted", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APCC_Character), &Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted_SetBit, METADATA_PARAMS(Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName_MetaData[] = {
+		{ "Category", "Aiming" },
+		{ "ModuleRelativePath", "Public/PCC_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName = { "FPSCameraSocketName", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APCC_Character, FPSCameraSocketName), METADATA_PARAMS(Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APCC_Character_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APCC_Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APCC_Character>::IsAbstract,
@@ -112,9 +124,9 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APCC_Character, APCC_Character::StaticClass, TEXT("APCC_Character"), &Z_Registration_Info_UClass_APCC_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APCC_Character), 2950129204U) },
+		{ Z_Construct_UClass_APCC_Character, APCC_Character::StaticClass, TEXT("APCC_Character"), &Z_Registration_Info_UClass_APCC_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APCC_Character), 4125646858U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_428411246(TEXT("/Script/Pacacas"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_548775079(TEXT("/Script/Pacacas"),
 		Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
