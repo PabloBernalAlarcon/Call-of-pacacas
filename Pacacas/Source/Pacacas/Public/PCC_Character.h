@@ -7,6 +7,7 @@
 #include "PCC_Character.generated.h"
 
 class UCameraComponent;
+class USpringArmComponent;
 
 UCLASS()
 class PACACAS_API APCC_Character : public ACharacter
@@ -14,8 +15,15 @@ class PACACAS_API APCC_Character : public ACharacter
 	GENERATED_BODY()
 
 protected:
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
+		USpringArmComponent* SpringArmComponent;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
 		UCameraComponent* FPSCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
+		UCameraComponent* TPSCamera;
 protected:
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category="Aiming")

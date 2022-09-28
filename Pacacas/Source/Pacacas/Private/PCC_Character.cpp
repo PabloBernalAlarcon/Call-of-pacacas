@@ -3,6 +3,7 @@
 
 #include "PCC_Character.h"
 #include <Engine/Classes/Camera/CameraComponent.h>
+#include <GameFramework/SpringArmComponent.h>
 // Sets default values
 APCC_Character::APCC_Character()
 {
@@ -14,6 +15,13 @@ APCC_Character::APCC_Character()
 	FPSCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FPSCameraComponent"));
 	FPSCamera->bUsePawnControlRotation = true;
 	FPSCamera->SetupAttachment(GetMesh(),FPSCameraSocketName);
+
+	SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComponent"));
+	SpringArmComponent->bUsePawnControlRotation = true;
+	SpringArmComponent->SetupAttachment(RootComponent);
+
+	TPSCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("TPSCameraComponent"));
+	TPSCamera->SetupAttachment(SpringArmComponent);
 
 }
 
