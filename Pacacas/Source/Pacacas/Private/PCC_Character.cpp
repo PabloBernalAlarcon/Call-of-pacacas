@@ -52,6 +52,9 @@ void APCC_Character::StopJumping()
 	Super::Jump();
 }
 
+
+
+//Cosiolo para rotar la camara al reves o no. 
 void APCC_Character::AddControllerPitchInput(float Val)
 {
 	Super::AddControllerPitchInput(b_isYLookInverted ? -Val : Val);
@@ -78,9 +81,12 @@ void APCC_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("LookRight", this, &APCC_Character::AddControllerYawInput);
 
 
-	//Jumpiong
+	//Jumping
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APCC_Character::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APCC_Character::StopJumping);
+
+	//Crouching
+	
 
 }
 

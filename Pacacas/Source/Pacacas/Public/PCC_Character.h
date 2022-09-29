@@ -46,8 +46,11 @@ protected:
 	void MoveForward(float value);
 	void MoveRight(float value);
 
+	//Jumping overloads
 	virtual void Jump() override;
 	virtual void StopJumping() override;
+
+	
 
 	virtual void AddControllerPitchInput(float Val) override;
 public:	
