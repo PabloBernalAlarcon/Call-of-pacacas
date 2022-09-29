@@ -43,6 +43,11 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_TPSCamera;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_b_useFirstPersonView_MetaData[];
+#endif
+		static void NewProp_b_useFirstPersonView_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_b_useFirstPersonView;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_b_isYLookInverted_MetaData[];
 #endif
 		static void NewProp_b_isYLookInverted_SetBit(void* Obj);
@@ -91,6 +96,17 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APCC_Character_Statics::NewProp_TPSCamera = { "TPSCamera", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APCC_Character, TPSCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APCC_Character_Statics::NewProp_TPSCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APCC_Character_Statics::NewProp_TPSCamera_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView_MetaData[] = {
+		{ "Category", "Aiming" },
+		{ "ModuleRelativePath", "Public/PCC_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView_SetBit(void* Obj)
+	{
+		((APCC_Character*)Obj)->b_useFirstPersonView = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView = { "b_useFirstPersonView", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APCC_Character), &Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView_SetBit, METADATA_PARAMS(Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted_MetaData[] = {
 		{ "Category", "Aiming" },
 		{ "ModuleRelativePath", "Public/PCC_Character.h" },
@@ -112,6 +128,7 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_SpringArmComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_TPSCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_b_useFirstPersonView,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_b_isYLookInverted,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APCC_Character_Statics::NewProp_FPSCameraSocketName,
 	};
@@ -151,9 +168,9 @@ void EmptyLinkFunctionForGeneratedCodePCC_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APCC_Character, APCC_Character::StaticClass, TEXT("APCC_Character"), &Z_Registration_Info_UClass_APCC_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APCC_Character), 3346664250U) },
+		{ Z_Construct_UClass_APCC_Character, APCC_Character::StaticClass, TEXT("APCC_Character"), &Z_Registration_Info_UClass_APCC_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APCC_Character), 120872893U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_3353042064(TEXT("/Script/Pacacas"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_1569343615(TEXT("/Script/Pacacas"),
 		Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Pacacas_Source_Pacacas_Public_PCC_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

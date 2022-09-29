@@ -9,7 +9,7 @@ APCC_Character::APCC_Character()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	b_useFirstPersonView = true;
 	FPSCameraSocketName = "SCK_Camera";
 
 	FPSCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FPSCameraComponent"));

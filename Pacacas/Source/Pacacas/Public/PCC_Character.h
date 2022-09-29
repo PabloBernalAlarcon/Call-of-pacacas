@@ -26,6 +26,9 @@ protected:
 		UCameraComponent* TPSCamera;
 protected:
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Aiming")
+		bool b_useFirstPersonView;
+
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category="Aiming")
 	bool b_isYLookInverted;
 
