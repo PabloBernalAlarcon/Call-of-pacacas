@@ -1,16 +1,5 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\USER\Documents\Repitos\Call-of-pacacas).
-  Building PacacasEditor...
-  Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
-    Executing up to 4 processes, one per physical core
-  Building 4 actions with 4 processes...
-  [1/4] Compile PCC_Character.cpp
-  [2/4] Link UnrealEditor-Pacacas.lib
-     Creating library C:\Users\USER\Documents\Repitos\Call-of-pacacas\Pacacas\Intermediate\Build\Win64\UnrealEditor\Development\Pacacas\UnrealEditor-Pacacas.lib and object C:\Users\USER\Documents\Repitos\Call-of-pacacas\Pacacas\Intermediate\Build\Win64\UnrealEditor\Development\Pacacas\UnrealEditor-Pacacas.exp
-  [3/4] Link UnrealEditor-Pacacas.dll
-     Creating library C:\Users\USER\Documents\Repitos\Call-of-pacacas\Pacacas\Intermediate\Build\Win64\UnrealEditor\Development\Pacacas\UnrealEditor-Pacacas.suppressed.lib and object C:\Users\USER\Documents\Repitos\Call-of-pacacas\Pacacas\Intermediate\Build\Win64\UnrealEditor\Development\Pacacas\UnrealEditor-Pacacas.suppressed.exp
-  [4/4] WriteMetadata PacacasEditor.target
-  Total time in Parallel executor: 4.38 seconds
-  Total execution time: 4.97 seconds
+  Target is up to date
+  Total execution time: 1.34 seconds
