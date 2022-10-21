@@ -4,10 +4,13 @@
 #include "PCC_Character.h"
 #include <Engine/Classes/Camera/CameraComponent.h>
 #include <GameFramework/SpringArmComponent.h>
+#include <GameFramework/CharacterMovementComponent.h>
 // Sets default values
 APCC_Character::APCC_Character()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	b_isSprinting = false;
+
 	PrimaryActorTick.bCanEverTick = true;
 	b_useFirstPersonView = true;
 	FPSCameraSocketName = "SCK_Camera";
@@ -34,12 +37,14 @@ void APCC_Character::BeginPlay()
 
 void APCC_Character::MoveForward(float value)
 {
-	AddMovementInput(GetActorForwardVector() * value);
+	
+	AddMovementInput(GetActorForwardVector()*value);
 }
 
 void APCC_Character::MoveRight(float value)
 {
-	AddMovementInput(GetActorRightVector() * value);
+	if (b_isSprinting) value *= 20;
+	AddMovementInput(GetActorRightVector()*value);
 }
 
 void APCC_Character::Jump()
@@ -50,6 +55,21 @@ void APCC_Character::Jump()
 void APCC_Character::StopJumping()
 {
 	Super::Jump();
+	
+}
+
+void APCC_Character::Sprint()
+{
+	b_isSprinting = true;
+	GetCharacterMovement()->MaxWalkSpeed = 1500;
+
+
+}
+
+void APCC_Character::StopSprinting()
+{
+	b_isSprinting = false;
+	GetCharacterMovement()->MaxWalkSpeed = 600;
 }
 
 
@@ -86,7 +106,8 @@ void APCC_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APCC_Character::StopJumping);
 
 	//Crouching
-	
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &APCC_Character::Sprint);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &APCC_Character::StopSprinting);
 
 }
 

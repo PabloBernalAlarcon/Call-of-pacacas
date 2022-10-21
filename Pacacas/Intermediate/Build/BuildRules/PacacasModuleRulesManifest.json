@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\USER\\Documents\\Repitos\\Call-of-pacacas\\Pacacas\\Source\\Pacacas\\Pacacas.Build.cs",
-		"C:\\Users\\USER\\Documents\\Repitos\\Call-of-pacacas\\Pacacas\\Source\\Pacacas.Target.cs",
-		"C:\\Users\\USER\\Documents\\Repitos\\Call-of-pacacas\\Pacacas\\Source\\PacacasEditor.Target.cs"
+		"D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\Pacacas\\Pacacas.Build.cs",
+		"D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\Pacacas.Target.cs",
+		"D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\PacacasEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

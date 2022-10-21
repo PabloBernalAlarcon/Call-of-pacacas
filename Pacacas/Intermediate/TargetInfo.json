@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Pacacas",
-			"Path": "C:\\Users\\USER\\Documents\\Repitos\\Call-of-pacacas\\Pacacas\\Source\\Pacacas.Target.cs",
+			"Path": "D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\Pacacas.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PacacasEditor",
-			"Path": "C:\\Users\\USER\\Documents\\Repitos\\Call-of-pacacas\\Pacacas\\Source\\PacacasEditor.Target.cs",
+			"Path": "D:\\Users\\Pablo\\Documents\\Unreal Projects\\Call-of-pacacas\\Pacacas\\Source\\PacacasEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -8,6 +8,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class UCharacterMovementComponent;
 
 UCLASS()
 class PACACAS_API APCC_Character : public ACharacter
@@ -35,6 +36,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Aiming")
 	FName FPSCameraSocketName;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Movement")
+		bool b_isSprinting;
 public:
 	// Sets default values for this character's properties
 	APCC_Character();
@@ -50,7 +53,8 @@ protected:
 	virtual void Jump() override;
 	virtual void StopJumping() override;
 
-	
+	void Sprint();
+	void StopSprinting();
 
 	virtual void AddControllerPitchInput(float Val) override;
 public:	
